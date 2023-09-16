@@ -1,8 +1,4 @@
-version: "3"
-services:
-    node:
-        build:
-            context: ../..
+  context: ../..
             dockerfile: servers/docker/node/Dockerfile
         volumes:
             - ../../src/js:/app
