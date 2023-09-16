@@ -1,5 +1,4 @@
-  context: ../..
-            dockerfile: servers/docker/node/Dockerfile
+dockerfile: servers/docker/node/Dockerfile
         volumes:
             - ../../src/js:/app
     api:
